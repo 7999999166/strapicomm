@@ -20,7 +20,7 @@ module.exports = [
     config: {
       enabled: true,
       headers: '*',
-      origin: ['http://localhost:5173', 'netlify app http address']
+      origin: ['http://localhost:5173','http://localhost:1337', 'https://strapicomm-production.up.railway.app','netlify app http address']
     }
   },
   'strapi::logger',
