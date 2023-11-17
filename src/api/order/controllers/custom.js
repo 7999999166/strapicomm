@@ -4,7 +4,7 @@
 
      async pre(ctx) {
   
-     ctx.body = 'ok';
+     ctx.body = process.env.HULARA;
  
       },
 
