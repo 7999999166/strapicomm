@@ -6,7 +6,7 @@ module.exports = {
         handler: 'custom.pre', 
       },
       {
-        method: 'GET',
+        method: 'POST',
         path: '/orders/posttransaction',
         handler: 'custom.post', 
       },
